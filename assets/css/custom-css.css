@@ -1,0 +1,60 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    position: relative;
+
+}
+
+.background-img{
+    /* The image used */
+  background: url("https://digitaldesa.id/templates/homepage/media/bg/bg-landing5.jpg");
+
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+
+  /* Full height */
+  width: 100vw;
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+main{
+    z-index: 2;
+}
+
+.btn-outline-success{
+    /*background-color: #327A6D;*/
+    border-color: #327A6D;
+    color: #327A6D;
+}
+
+.btn-outline-success:hover{
+    background-color: #327A6D;
+    border-color: #327A6D;
+    color: #fff;
+}
+.btn-success{
+    background-color: #327A6D;
+    border-color: #327A6D;
+    color: #fff;
+}
+
+
+
+
+#nextPageIcon{
+    transition: all .5s ease;
+    color: #27B45F;
+}
+#nextPageIcon:hover{
+ transform: scale(1.25);
+}
