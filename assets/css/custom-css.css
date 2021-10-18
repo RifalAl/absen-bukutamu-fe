@@ -5,6 +5,28 @@ body{
 
 }
 
+.clr-white{
+    color: #fff;
+}
+
+.bold-font{
+    font-weight: 500;
+}
+
+.des-gambar{
+    font-size: 1.5rem;
+}
+
+.btn-success{
+    background-color: #27B45F;
+    border-color: #27B45F;
+}
+
+.btn-warning{
+    background-color: #F8A23D;
+    border-color: #F8A23D;
+}
+
 .background-img{
     /* The image used */
   background: url("https://digitaldesa.id/templates/homepage/media/bg/bg-landing5.jpg");
